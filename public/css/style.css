@@ -1,0 +1,461 @@
+/* colors */
+.btn-custom-green {
+    background-color: #0e8f3c;
+    color: white; /* Warna teks */
+}
+.btn-custom-navy {
+    background-color: #0D4715;
+    color: white; /* Warna teks */
+}
+.btn-custom-yellow {
+    background-color: #E9762B;
+    color: white; /* Warna teks */
+}
+.heading-text{
+    /* color: #0e8f3c; */
+    color: #000;
+}
+.border-left-green{
+    border-left: 5px solid #0e8f3c; /* Ubah warna border kiri */
+    background-color: #f9f9f9; /* Ubah warna latar belakang */
+    color: #333333; /* Ubah warna teks */
+}
+
+/* checkbox */
+.custom-checkbox {
+    width: 20px; /* Lebar checkbox */
+    height: 20px; /* Tinggi checkbox */
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #0e8f3c;
+    border-radius: 3px; /* Sudut membulat */
+    position: relative;
+    cursor: pointer;
+}
+
+
+.navbar-container {
+    width: 100%;
+    padding-block: 1rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9999;
+}
+
+.test-container{
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9999;
+}
+
+.test-container p{
+    align-items: center;
+    justify-content: center;
+}
+
+.table-test{
+    width: 100%;
+    max-width: 900px;
+    padding-block: 1rem;
+    margin-inline: auto;
+    align-items: center;
+    z-index: 9999;
+}
+
+.petunjuk-pengisian {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen anak dalam kolom */
+    align-items: center; /* Mengatur elemen anak agar berada di tengah secara horizontal */
+    justify-content: center; /* Mengatur elemen anak agar berada di tengah secara vertikal */
+    border-radius: 15px; /* Mengatur sudut rounded rectangle */
+    padding: 20px; /* Memberikan jarak di dalam kotak */
+    width: 900px; /* Lebar kotak */
+    margin: 40px auto; /* Mengatur margin agar berada di tengah halaman */
+    border: 2px solid;
+    border-color: #1c7430;
+}
+
+.petunjuk-pengisian h4 {
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.petunjuk-pengisian p {
+    text-align: justify; /* Mengatur teks agar rata kanan-kiri */
+    margin: 10px 0 0 0; /* Mengatur margin atas untuk jarak dengan h4 */
+}
+
+.login-container{
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin-inline: auto;
+    align-items: center;
+    z-index: 9999;
+    padding: 70px 50px; 
+}
+
+.register-container{
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin-inline: auto;
+    align-items: center;
+    z-index: 9999;
+    padding: 70px 50px; 
+}
+
+.hasil-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: self-start; 
+    margin-inline: auto;
+    z-index: 9999;
+    padding: 70px 50px; 
+    text-align: center;
+}
+
+.hasil-container p {
+    margin: 50;
+    padding: 5px;
+}
+
+.hasil-container h2 {
+    margin: 50;
+    padding: 0px 0px 5px 0px;
+}
+
+.hasil-container h3 {
+    margin: 50;
+    padding: 10px 0px 10px 0px;
+}
+
+.hasil-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 17%;
+}
+
+.hasil-container table{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 25px;
+}
+
+.wa-button{
+    display: flex;
+    width: 999px;
+    height: fit-content;
+    box-sizing: content-box;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.tanggal-lahir {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.tanggal-lahir label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.tanggal-lahir input[type="date"] {
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+header.navbar-container .logo img {
+    width: 150px;
+}
+
+header.navbar-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+header.navbar-container .nav-list li {
+    list-style-type: none;
+}
+
+header.navbar-container .nav-list li a {
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color:#0D4715;
+    transition: all 0.2s ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+    background-color:#E9762B;
+    color:#0D4715;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen anak dalam kolom */
+    align-items: center; /* Mengatur elemen anak agar berada di tengah secara horizontal */
+    justify-content: center; /* Mengatur elemen anak agar berada di tengah secara vertikal */
+    border-radius: 15px; /* Mengatur sudut rounded rectangle */
+    padding: 20px; /* Memberikan jarak di dalam kotak */
+    width: 900px; /* Lebar kotak */
+    margin: 40px auto; /* Mengatur margin agar berada di tengah halaman */
+    border: 2px solid;
+    border-color: #1c7430;
+}
+
+.text-content p{
+    text-align: center; /* Mengatur teks agar rata kanan-kiri */
+    margin: 10px 0 0 0; /* Mengatur margin atas untuk jarak dengan h4 */
+}
+
+.image-content {
+    width: 40%;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tombol-mulai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+}
+
+.register-submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+}
+
+.tombol-mulai button{
+    letter-spacing: 2px;
+    background-color: #0D4715; 
+    color: #E9762B; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    margin: 40px;
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.login-submit-button button{
+    letter-spacing: 2px;
+    background-color:#0D4715; 
+    color:azure; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    margin: 50px;
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.register-submit-button button{
+    letter-spacing: 2px;
+    background-color:#0e8f3c; 
+    color:#E9762B; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    margin: 50px;
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.tombol-mulai button a{
+    color: #E9762B;
+}
+
+.tombol-mulai button a:hover{
+    color: #0D4715;
+}
+
+.tombol-mulai button:hover{
+    color:#0D4715;
+    background-color:#E9762B;
+}
+
+.register-submit-button button:hover{
+    color:#0e8f3c;
+    background-color:#56b076;
+}
+
+.login-submit-button button:hover{
+    color:#E9762B;
+    background-color:#446d49;
+}
+
+.tombol-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+}
+
+.tombol-submit button{
+    letter-spacing: 2px;
+    background-color:#0D4715; 
+    color:#E9762B; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    margin: 50px;
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.tombol-submit button a{
+    color: #E9762B;
+}
+
+.tombol-submit button a:hover{
+    color: #0D4715;
+}
+
+.tombol-submit button:hover{
+    color:#0D4715;
+    background-color:#E9762B;
+}
+
+footer {
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    color:#E9762B;
+    background-color:#0D4715;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mengubah warna latar belakang dan teks untuk elemen nav-link yang aktif */
+.sidebar .nav-item.active .nav-link {
+    background-color: #0a5d15; /* Warna latar belakang yang lebih gelap */
+    color: #ffffff; /* Warna teks */
+}
+
+/* Mengubah warna latar belakang dan teks saat hover pada elemen nav-link yang aktif */
+.sidebar .nav-item.active .nav-link:hover {
+    background-color: #446d49; /* Warna latar belakang saat hover */
+    color: #ffffff; /* Warna teks saat hover */
+}
+
+/* Mengatur warna untuk nav-link yang tidak aktif */
+.sidebar .nav-item .nav-link {
+    color: #ffffff; /* Warna teks default */
+}
+
+/* Mengatur warna latar belakang untuk nav-link yang tidak aktif */
+.sidebar .nav-item .nav-link:hover {
+    background-color: #446d49; /* Warna latar belakang saat hover untuk link yang tidak aktif */
+    color: #ffffff; /* Warna teks saat hover */
+}
+
+#page-top{
+    background-color: #0D4715;
+}
+
+@media screen and (max-width: 768px) {
+    header.navbar-container {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom */
+        align-items: center; /* Menyelaraskan item di tengah */
+    }
+
+    .container {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom */
+        align-items: center; /* Menyelaraskan item di tengah */
+    }
+
+    .text-content {
+        width: 100%; /* Mengatur lebar menjadi 100% */
+        margin-bottom: 20px; /* Menambahkan margin bawah */
+    }
+
+    .image-content {
+        width: 100%; /* Mengatur lebar menjadi 100% */
+    }
+
+    header.navbar-container .nav-list ul {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom */
+        gap: 1rem; /* Menambahkan jarak antar item */
+        align-items: center; /* Menyelaraskan item di tengah */
+    }
+
+    .tombol-mulai button {
+        font-size: 1rem; /* Mengatur ukuran font tombol */
+        margin: 20px; /* Menambahkan margin */
+    }
+
+    .tombol-submit button {
+        font-size: 1rem; /* Mengatur ukuran font tombol */
+        margin: 20px; /* Menambahkan margin */
+    }
+
+    .login-container, .register-container, .hasil-container {
+        padding: 20px; /* Mengurangi padding untuk tampilan lebih baik di layar kecil */
+    }
+
+    .petunjuk-pengisian {
+        width: 90%; /* Mengatur lebar menjadi 90% untuk responsivitas */
+        margin: 20px auto; /* Mengatur margin agar berada di tengah */
+    }
+
+    .table-test {
+        width: 100%; /* Mengatur lebar tabel menjadi 100% */
+    }
+
+    .wa-button {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom */
+        align-items: center; /* Menyelaraskan item di tengah */
+    }
+
+    .wa-button a {
+        width: 100%; /* Mengatur lebar tombol menjadi 100% */
+        margin: 10px 0; /* Menambahkan margin vertikal */
+    }
+}
