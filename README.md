@@ -1,3 +1,11 @@
+# About App
+
+This is an expert system project for detecting depressive disorders, equipped with diagnostic results, activity recommendations, and also a dashboard for monitoring test results periodically. All knowledge bases used are sourced from experts.
+
+## Demo App
+
+![Expert System forn depressive demo app](public/img/ddsexp.gif)
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
